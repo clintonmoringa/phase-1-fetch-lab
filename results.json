@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-07-25T10:12:10.960Z",
+    "end": "2023-07-25T10:12:11.621Z",
+    "duration": 661
+  },
+  "tests": [
+    {
+      "title": "sends a fetch request to 'https://anapioficeandfire.com/api/books'",
+      "fullTitle": "index.js fetchBooks() sends a fetch request to 'https://anapioficeandfire.com/api/books'",
+      "duration": 77,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders book titles into the DOM by passing a JSON object to renderBooks()",
+      "fullTitle": "index.js fetchBooks() renders book titles into the DOM by passing a JSON object to renderBooks()",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'then')\n    at Context.<anonymous> (test/indexTest.js:26:25)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "Cannot read properties of undefined (reading 'then')"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "renders book titles into the DOM by passing a JSON object to renderBooks()",
+      "fullTitle": "index.js fetchBooks() renders book titles into the DOM by passing a JSON object to renderBooks()",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'then')\n    at Context.<anonymous> (test/indexTest.js:26:25)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "Cannot read properties of undefined (reading 'then')"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "sends a fetch request to 'https://anapioficeandfire.com/api/books'",
+      "fullTitle": "index.js fetchBooks() sends a fetch request to 'https://anapioficeandfire.com/api/books'",
+      "duration": 77,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
